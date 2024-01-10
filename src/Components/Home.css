@@ -1,0 +1,222 @@
+/* landing page css start */
+
+.landing {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./Assets/wallpaper1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+@media (min-width: 1000px) {
+    .landing-content {
+        padding-left: 50px;
+        color: white;
+        font-size: 45px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 1000px) {
+    .landing-content {
+        padding-left: 50px;
+        color: white;
+        font-size: 45px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 500px) {
+    .landing {
+        justify-content: center;
+    }
+
+    .landing-content {
+        padding-left: 0px;
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+    }
+}
+
+.landing-content .span {
+    color: rgb(255, 212, 157) !important;
+    font-size: 35px;
+}
+
+/* landing page css end */
+
+
+/* about page css start */
+
+.about-page {
+    width: 100%;
+
+}
+
+.about-container {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-content,
+.service-head {
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-image {
+    max-width: 900px;
+}
+
+.about-image img {
+    width: 100%;
+}
+
+.about-service {
+    display: flex;
+    padding-top: 25px;
+}
+
+.about-service-card {
+    padding: 15px;
+    text-align: justify;
+
+}
+
+.about-service-card h5 {
+    text-align: center;
+}
+
+.about-service-card h5,
+.about-content .pro,
+.h2 {
+    color: rgb(3, 166, 39);
+}
+
+/* about page css end */
+
+/* service css start */
+
+.service {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+}
+
+.c-item {
+    max-width: 1000px;
+    max-height: 70vh;
+}
+
+.c-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.c-caption {
+    text-align: left;
+    display: flex;
+    top: 50%;
+}
+
+/* service css end */
+
+
+/* products css start */
+
+.products-page {
+    width: 100%;
+    text-align: center;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+    padding-top: 75px;
+    padding-bottom: 30px;
+}
+
+.products-card{
+    width: 340px;
+    height: fit-content;
+}
+
+.pro-card-img{
+    width: 340px;
+    height: 340px;
+}
+
+.pro-card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pro-card-head{
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.pro-card-button{
+    padding: 15px;
+}
+
+/* products css end */
+
+/* contact css start */
+
+/* Contact Container Styles */
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  /* Contact Details Styles */
+  .contact-details {
+    width: 50%;
+    padding: 20px;
+    /* border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #888888; */
+  }
+  
+  .contact-details h2 {
+    font-size: 24px;
+    color: rgb(3, 166, 39);
+  }
+  
+  /* Google Map Styles */
+  .google-map {
+    width: 150vh;
+    height: 100%;
+  }
+  
+  .google-map iframe {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+/* contact css end */
